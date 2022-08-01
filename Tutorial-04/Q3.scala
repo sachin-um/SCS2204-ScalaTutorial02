@@ -1,28 +1,9 @@
 def toUpper(line:String):String={
-    var x=""
-    line.foreach(i=>{
-        if (i.isLower){
-            x+=i.toUpper
-        }
-        else{
-            x+=i
-        }
-        
-    })
-    return x
+    return line.toUpperCase()
 }
 
 def toLower(line:String):String={
-    var x=""
-    line.foreach(i=>{
-        if(i.isUpper){
-            x+=i.toLower 
-        }
-        else{
-            x+=i
-        }
-    })
-    return x
+    return line.toLowerCase()
 }
 def formatName(f:(String)=>String,name:String)={
     val string=f(name)
