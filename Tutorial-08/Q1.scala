@@ -23,8 +23,8 @@ case class Point(var x:Int, var y:Int){
 }
 
 object Q1 extends App{
-    var x=Point(1,2)
-    var y=Point(4,10)
+    var x=Point(5,7)
+    var y=Point(2,8)
 
     println(x.add(y))
 
